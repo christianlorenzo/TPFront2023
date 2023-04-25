@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico Integrador Front End</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav class="navbar navbar-expand-sm bg-dark" data-bs-theme="dark" id="menu">
+                <div class="container">
+                    <div class="d-flex justify-content-start">
+                        <img src="img/codoacodo.png" height="50">
+                        <a class="navbar-brand" href="#">Conf Bs As</a>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#conferencia">La conferencia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#oradores">Los oradores</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#lugarFecha">El lugar y la fecha</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Conviértete en orador</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><span class="text-success">Comprar tickets</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div id="conferencia" class="contaiener-fluid">
+        <div class="mb-2">
+            <h1>Conf Bs As</h1>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel pariatur commodi ex repellendus
+            voluptatibus quaerat reiciendis sed optio obcaecati molestias fuga laboriosam recusandae nulla, beatae
+            culpa ad porro dolorem? Nam.
+        </div>
+        <div class="d-inline">
+            <input class="btn btn-outline-light" type="button" value="Quiero ser orador">
+            <input class="btn btn-success" type="button" value="Comprar tickets">
+        </div>
+    </div>
+    <div id="oradores" class="mt-3">
+        <div class="text-center">
+            CONOCE A LOS
+            <h2>ORADORES</h2>
+        </div>
+        <div class="card-group" id="tarjetas">
+            <div class="card border text-left">
+                <img src="img/steve.jpg" class="card-img-top w-auto" alt="Steve Jobs">
+                <div class="card-body">
+                    <div class="card-text">
+                        <div class="d-inline">
+                            <input class="btn btn-warning btn-sm" type="button" value="JavaScript">
+                            <input class="btn btn-info btn-sm" type="button" value="React">
+                        </div>
+                        <div>
+                            <h4>Steve Jobs</h4>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil numquam itaque quas error
+                            iusto aut molestiae? Quidem dignissimos fugit assumenda exercitationem tenetur aliquam!
+                            Velit culpa mollitia rerum sunt expedita maxime!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card text-left">
+                <img src="img/bill.jpg" class="card-img-top w-auto" alt="Bill Gates">
+                <div class="card-body">
+                    <div class="card-text">
+                        <div class="d-inline">
+                            <input class="btn btn-warning btn-sm" type="button" value="JavaScript">
+                            <input class="btn btn-info btn-sm" type="button" value="React">
+                        </div>
+                        <div>
+                            <h4>Bill Gates</h4>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil numquam itaque quas error
+                            iusto aut molestiae? Quidem dignissimos fugit assumenda exercitationem tenetur aliquam!
+                            Velit culpa mollitia rerum sunt expedita maxime!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card text-left">
+                <img src="img/ada.jpeg" class="card-img-top w-auto" alt="Ada Lovelace">
+                <div class="card-body">
+                    <div class="card-text">
+                        <div class="d-inline">
+                            <input class="btn btn-secondary btn-sm" type="button" value="Negocios">
+                            <input class="btn btn-danger btn-sm" type="button" value="Startups">
+                        </div>
+                        <div>
+                            <h4>Ada Lovelace</h4>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil numquam itaque quas error
+                            iusto aut molestiae? Quidem dignissimos fugit assumenda exercitationem tenetur aliquam!
+                            Velit culpa mollitia rerum sunt expedita maxime!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="lugarFecha">
+        <div class="row p-0">
+            <div class="col m-0">
+                <img src="img/honolulu.jpg" class="img-fluid w-100 h7-5">
+            </div>
+            <div class="col m-0 bg-secondary text-white p-3">
+                <h3>Bs AS - Octubre</h3>
+                <div>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam atque, earum a vel voluptatum eos,
+                    voluptates obcaecati, neque eius consectetur ullam nesciunt officia mollitia itaque maxime! Corrupti
+                    doloremque eum possimus.
+                </div>
+                <input type="button" class="btn btn-outline-light mt-3" value="Conocé más">
+            </div>
+        </div>
+    </div>
+
+    <div id="inscripcion">
+        <div class="text-center">
+            CONVIÉRTETE EN UN
+            <h2>ORADOR</h2>
+            Anótate como orador para dar una <span>charle ignite</span>. Cuéntanos de qué quieres hablar!
+        </div>
+        <form action="" method="post">
+
+        </form>
+    </div>
+
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
