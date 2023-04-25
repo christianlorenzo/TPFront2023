@@ -1,5 +1,7 @@
+
+
 #conferencia
-{ 
+{
     padding: 200px 50px 100px 50%;
     color: white;
     text-align: right;
@@ -8,6 +10,7 @@
     background-size: cover;
     box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, 1 );
 }
+
 
 #tarjetas 
 {
@@ -20,4 +23,9 @@
 {
     margin: 30px;
     font-size: x-small;
+}
+
+#tema
+{
+    font-size: x-large;
 }
