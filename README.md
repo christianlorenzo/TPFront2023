@@ -1,3 +1,3 @@
 # TPFront2023
 
-Trabajo práctio Fron End - Comisión 23048
+Trabajo práctio Front End - Comisión 23048
