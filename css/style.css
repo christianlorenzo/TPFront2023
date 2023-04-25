@@ -1,31 +1,30 @@
-
-
-#conferencia
-{
-    padding: 200px 50px 100px 50%;
-    color: white;
-    text-align: right;
-    background-image: url('../img/ba1.jpg');
-    background-position-y: bottom;
-    background-size: cover;
-    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, 1 );
+.carousel{
+    display: block;
+    overflow: hidden;
 }
 
+.carousel img {
+    width: 100%;
+    box-shadow: black;
+}
 
-#tarjetas 
-{
+.carousel-caption {
+    position: relative;
+    text-align: right !important;
+    top: 50%;
+}
+
+#tarjetas {
     height: auto;
     margin-left: 100px;
     margin-right: 100px;
 }
 
-.card
-{
+.card {
     margin: 30px;
     font-size: x-small;
 }
 
-#tema
-{
+#tema {
     font-size: x-large;
 }
