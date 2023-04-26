@@ -1,27 +1,20 @@
-.carousel{
-    height: 600px;
-    overflow: hidden;
-}
-
-.carousel img {
+.carousel img
+{
     width: 100%;
     object-fit: cover;
-    filter: brightness(40%);
+    margin: -100px 0px -50px 0px;
+    filter: brightness(50%);
 }
 
-.carousel-caption {
+.carousel-caption
+{
     position: relative;
     text-align: right !important;
     top: 25%;
 }
 
-#tarjetas {
-    height: auto;
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
-.card {
+.card
+{
     margin: 30px;
     font-size: small;
     line-height: 2;
@@ -34,7 +27,8 @@
     font-weight: bold !important;
 }
 
-#tema {
+#tema
+{
     font-size: x-large;
 }
 
@@ -52,4 +46,9 @@
 #footer
 {
     background-color: #1c3846 !important;
+}
+
+#footer .nav-item
+{
+    font-size: smaller !important;
 }
