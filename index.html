@@ -202,22 +202,22 @@
         </div>
     </div>
 
-    <div id="inscripcion" class=" w-75 mx-auto m-5">
+    <div id="inscripcion" class="w-75 mx-auto m-5">
         <div class="text-center">
             CONVIÉRTETE EN UN
             <h2>ORADOR</h2>
             Anótate como orador para dar una <span>charla ignite</span>. Cuéntanos de qué quieres hablar!
         </div>
-        <form action="" method="post">
+        <form action="index.html" method="get">
             <div class="form">
                 <div class="d-inline-flex w-100">
-                    <input type="text" class="form-control m-1" id="nombre" name="nombre" placeholder="Nombre">
-                    <input type="text" class="form-control m-1" id="apellido" name="apellido" placeholder="Apellido">
+                    <input type="text" class="form-control m-1" id="nombre" name="nombre" placeholder="Nombre" required>
+                    <input type="text" class="form-control m-1" id="apellido" name="apellido" placeholder="Apellido" required>
                 </div>
                 <textarea class="form form-control m-1" name="tema" id="tema" cols="30" rows="5"
-                    placeholder="Sobre qué quieres hablar?"></textarea>
+                    placeholder="Sobre qué quieres hablar?" required></textarea>
                 <div class="form-text">Recuerda incluir un título para tu charla</div>
-                <input type="button" class="btn btn-success form-control m-1" value="Enviar">
+                <button type="submit" class="btn btn-success form-control m-1" >Enviar</button>
             </div>
         </form>
     </div>
@@ -238,7 +238,7 @@
                         <a class="nav-link mx-2" href="">Conferencias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mx-2" href="">Térmios y condiciones</a>
+                        <a class="nav-link mx-2" href="">Términos y condiciones</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link mx-2" href="">Privacidad</a>
