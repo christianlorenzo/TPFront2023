@@ -30,8 +30,7 @@
     }
   }
   
-
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
 
     .carousel img {
         width: 100%;
