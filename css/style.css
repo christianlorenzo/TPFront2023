@@ -1,54 +1,64 @@
-.carousel img
-{
-    width: 100%;
-    object-fit: cover;
-    margin: -100px 0px -50px 0px;
-    filter: brightness(50%);
+@media only screen and (max-width: 600px) {
+
+    .carousel img {
+        margin: -100px 0px -500px 0px;
+        object-fit: cover;
+        filter: brightness(50%);
+        height: 50%;
+    }
+
+    .carousel-caption {
+        position: relative;
+        text-align: right !important;
+        top: 0%;
+    }
 }
 
-.carousel-caption
-{
-    position: relative;
-    text-align: right !important;
-    top: 25%;
-}
+@media only screen and (min-width: 600px) {
 
-.card
-{
-    margin: 30px;
-    font-size: small;
-    line-height: 2;
-}
+    .carousel img {
+        width: 100%;
+        object-fit: cover;
+        margin: -100px 0px -50px 0px;
+        filter: brightness(50%);
+    }
 
-.btn-sm
-{
-    height: 25px;
-    padding: 0;
-    font-weight: bold !important;
-}
+    .carousel-caption {
+        position: relative;
+        text-align: right !important;
+        top: 25%;
+    }
 
-#tema
-{
-    font-size: x-large;
-}
+    .card {
+        margin: 30px;
+        font-size: small;
+        line-height: 2;
+    }
 
-#descripcion
-{
-    font-size: smaller;
-}
+    .btn-sm {
+        height: 25px;
+        padding: 0;
+        font-weight: bold !important;
+    }
 
-#inscripcion span
-{
-    text-decoration: underline;
-    text-decoration-style: dotted;
-}
+    #tema {
+        font-size: x-large;
+    }
 
-#footer
-{
-    background-color: #1c3846 !important;
-}
+    #descripcion {
+        font-size: smaller;
+    }
 
-#footer .nav-item
-{
-    font-size: smaller !important;
+    #inscripcion span {
+        text-decoration: underline;
+        text-decoration-style: dotted;
+    }
+
+    #footer {
+        background-color: #1c3846 !important;
+    }
+
+    #footer .nav-item {
+        font-size: smaller !important;
+    }
 }
