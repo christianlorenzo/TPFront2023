@@ -4,7 +4,7 @@ function resumen(){
     
     if(cantidad<1){
         alert("Cantidad inválida");
-        document.getElementById("aPagar").value = "Total a Pagar: $";
+        borrar();
     } else {
         var aPagar= (200-(200*(selectCategoria/100)))*cantidad;
         document.getElementById("aPagar").value = "Total a Pagar: $" + aPagar;
