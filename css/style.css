@@ -65,3 +65,12 @@
 #footer .nav-item {
     font-size: smaller !important;
 }
+
+#promos div {
+    line-height: 30px;
+}
+
+.boton {
+    background-color: #a7dd56;
+    color: white;
+}
